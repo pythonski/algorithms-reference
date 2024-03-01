@@ -11,6 +11,3 @@ def count_degrees(n_nodes, edges):
         degs.append(deg)
 
     return degs
-
-n_nodes, edges = read_edge_list('/home/fabio/PycharmProjects/Rosalind/datasets/rosalind_deg.txt')
-# print(*count_degrees(n_nodes, edges))
