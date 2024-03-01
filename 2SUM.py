@@ -27,14 +27,5 @@ def opposite_indices(arrays):
 
         return indices
 
-# def rococo(array):
-
-    # new_array = merge_sort(array)
-    # count = 0
-
-    # for i in range(len(array)-1-count):
-        # for k in range(1, len(array)-1-count, -1):
-        # if new_array(i) + new_array():
-
 arrays = [[5, 4, -5, 6, 8]]
 print(opposite_indices(arrays))
