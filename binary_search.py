@@ -21,11 +21,3 @@ def binary_search(A, k, low, high):
 
     else:
         return -1
-
-indices = []
-K = [40]
-
-for k in K:
-    indices.append(binary_search([10, 20, 30, 40, 50], k, 0, 5))
-
-print(*indices)
