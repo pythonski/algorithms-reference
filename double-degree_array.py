@@ -26,6 +26,3 @@ def double_degrees(n_nodes, edges):
         double_degrees.append(sum(neighbours_degrees))
 
     return double_degrees
-
-n_nodes, edges = read_edge_list('/home/fabio/PycharmProjects/Rosalind/datasets/rosalind_ddeg.txt')
-# print(*double_degrees(n_nodes, edges))
